@@ -1,0 +1,121 @@
+<html>
+<head>
+  <title>Magic Calculus</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+   <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <div class="main">
+      <nav>
+        <h1>Magic Calculator</h1>
+        <ul>
+          <li><a href="#about" onclick="smoothScroll('.about');">About.</a></li>
+        </ul>
+      </nav>
+          <div class="wrap">
+            <h1><span>Crack</span><span class="space-js">&nbsp;</span><span>The</span><span class="space-js">&nbsp;</span><span>Code</span><span class="space-js">&nbsp;</span><span>Of</span><span class="space-js">&nbsp;</span><span>The</span><span class="space-js">&nbsp;</span>
+            <span>Internet</span></h1>
+
+
+
+            <button class="selectDisable btn" onclick="smoothScroll('.about');">Get the answer</button>
+          </div>
+          <div class="person-wrap">
+            <img class="selectDisable person" src="img/2.svg" alt="">
+            <p class="msg">pss.. the code is 9!</p>
+          </div>
+
+
+
+            <svg class="svg-background" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="810" height="1080" viewBox="0 0 810 1080">
+              <defs>
+                <filter id="f1" x="0" y="0">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="25"></feGaussianBlur>
+                </filter>
+                <clipPath id="clip-path">
+                  <rect id="Rectangle_13" data-name="Rectangle 13" width="670" height="1080" transform="translate(0 -200)" fill="#fff" stroke="#707070" stroke-width="1"></rect>
+                </clipPath>
+                <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+                  <stop offset="0" stop-color="#ff0023"></stop>
+                  <stop offset="0.097" stop-color="#fa5582"></stop>
+                  <stop offset="1" stop-color="#b2059f" stop-opacity="0"></stop>
+                </radialGradient>
+              </defs>
+              <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 200)" clip-path="url(#clip-path)">
+                <path id="Path_3" data-name="Path 3" d="M-484.043-166.314c-450.51-2500.33,1037.951-1208.078,834.036,404.273S461.435,1295.472,1104,1338.152-277.067,2393.256,92.861,1692.635-33.533,2334.016-484.043-166.314Z" transform="translate(-267.005 -451)" fill="url(#radial-gradient)" filter="url(#f1)"></path>
+              </g>
+            </svg>
+
+
+        </div>
+
+    <div class="calculator-wrapper">
+
+      <div class="win-popup">
+        <div>
+            <img class="selectDisable heart" src="./img/heart-regular.svg">
+            <h1>You did it!</h1>
+            <p>9 is the answer</p>
+          </div>
+            </div>
+
+      <div class="calculator-card">
+        <div class="calculator-display">
+
+          <h2 data-cur-text>0</h2>
+        </div>
+        <div class="calculator-keyboard">
+          <div class="calc-left">
+            <div style="grid-column-start: 1;
+            grid-column-end: 3;"></div>
+            <button data-clear class="btn-calc btn-calc-black">C</button>
+
+            <button data-calc-btn class="btn-calc">7</button>
+            <button data-calc-btn class="btn-calc">8</button>
+            <button data-calc-btn class="btn-calc">9</button>
+
+            <button data-calc-btn class="btn-calc">4</button>
+            <button data-calc-btn class="btn-calc">5</button>
+            <button data-calc-btn class="btn-calc">6</button>
+
+            <button data-calc-btn class="btn-calc">1</button>
+            <button data-calc-btn class="btn-calc">2</button>
+            <button data-calc-btn class="btn-calc">3</button>
+
+            <button data-calc-btn class="btn-calc">0</button>
+            <button data-calc-btn class="btn-calc">00</button>
+            <button data-calc-dot class="btn-calc">.</button>
+          </div>
+          <div class="calc-right">
+            <button data-calc-math class="btn-calc btn-calc-black">*</button>
+            <button data-calc-math class="btn-calc btn-calc-black">/</button>
+            <button data-calc-math class="btn-calc btn-calc-black">+</button>
+            <button data-calc-math class="btn-calc btn-calc-black">-</button>
+            <button data-equal class="btn-calc btn-calc-black">=</button>
+          </dov>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="about">
+<div class="text-box">
+    <h1>About.</h1>
+    <p>Simple calculator that is using eval() function to do the math. If your math formula is equal to 9 an animated card will pop up.</p>
+    <p>Github</p>
+  </div>
+  <div class="text-box">
+      <h1>To do's.</h1>
+      <p>Make the website responsive - Right now it only looks good on 1920 by 1080<br />
+Improve calculator - eval() function is very limited.
+</p>
+    </div>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
